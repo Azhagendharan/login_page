@@ -13,13 +13,17 @@
 <body class = "background">
     <div class = "login">
         <p class = "signin">Sign In</p>
-        <p class = "text">Username</p>
-        <input></input>
-        <p class = "text">Password</p>
-        <input></input>
+        <form onsubmit = alert_user()>
+            <label for="fname">Username</label><br>
+            <input type="text" id="un" name="un" value = "Enter your username"><br>
+            <label for="lname">Password</label><br>
+            <input type="text" id="pw" name="pw" value = "Enter your username"><br><br>
+            <input type="submit" value="Login" style = "width:40%">
+          </form>
+        <br>
         <p style = "font-size: 10px;">Don't have an Account? <a href = "https://youtu.be/dQw4w9WgXcQ?si=LjxEUqfLjiAxUwq4" >Sign Up</a>
         </p>
     </div>
-    
+    <script src="./index.js" charset="UTF-8" ></script>
 </body>
 </html>
