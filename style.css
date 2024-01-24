@@ -1,3 +1,15 @@
+/* .heading{
+    font-size: ;
+    font-style: ;
+    color: ;
+} */
+
+.overall_body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 .login{
     color: aliceblue;
     box-shadow: 5px;
@@ -21,8 +33,8 @@
     background-image: url("./Screenshot\ 2024-01-07\ 075543.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    /* width: 100vh; */
+    height: 100vh;
+    width: 1 rem;
 }
 
 .signin{
@@ -45,7 +57,16 @@ input{
     font-size: small;
 }   
 
-.footer_body{
+.footer_container{
+    background-color:#31303D ;
+    box-sizing: border-box;
+}
 
+.footer_heading{
+    text-align: center;
+}
+
+.socials{
+    display: flex;
 }
 

@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
-
-    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <title>Malevolent Kitchen</title>
+    
 </head>
-<body class = "background">
-    <div class = "login">
-        <p class = "signin">Sign In</p>
-        <div class = "credentials">
-            <form onsubmit = alert_user()>
-                <label for="fname">Username</label><br>
-                <input onclick="input_text_disappear()"   type="text" id="un" name="un" placeholder = "Enter your username" opacity = "0.5"><br>
-                <label for="lname">Password</label><br>
-                <input onclick="input_text_disappear()" type="text" id="pw" name="pw" placeholder = "Enter your username"><br><br>
-                <input type="submit" value="Login" style = "width:40%">
-            </form>
-            <br>
-        <p style = "font-size: 12px; ">Don't have an Account? <a style = "text-decoration: none" href = "https://youtu.be/dQw4w9WgXcQ?si=LjxEUqfLjiAxUwq4" >Sign Up</a>
-        </p>
+<body class = "overall_body">
+    <div class = "background">
+        <p class = "heading">Malevolent Kitchen</p>
+        <div class = "login">
+            <p class = "signin">Sign In</p>
+            <div class = "credentials">
+                <form onsubmit = alert_user()>
+                    <label for="fname">Username</label><br>
+                    <input onclick="input_text_disappear()"   type="text" id="un" name="un" placeholder = "Enter your username" opacity = "0.5"><br>
+                    <label for="lname">Password</label><br>
+                    <input onclick="input_text_disappear()" type="text" id="pw" name="pw" placeholder = "Enter your username"><br><br>
+                    <input type="submit" value="Login" style = "width:40%">
+                </form>
+            </div>    
+            <p style = "font-size: 12px; ">Don't have an Account? <a style = "text-decoration: none" href = "https://youtu.be/dQw4w9WgXcQ?si=LjxEUqfLjiAxUwq4" >Sign Up</a>
+            </p>
         </div>    
     </div>
+    <div class = "footer_container">
+        <footer class="footer">
+            <p class = "footer_heading">Contact Me @</p>
+            <p class = "socials twitter">Twitter</p>
+            <p class = "socials instagram">Instagram</p>
+            <p class = "socials facebook">Facebook</p>
+            <p class = "socials discord">Discord</p>
+            <p class = "socials reddit">Reddit</p>
+        </footer>
+    </div>
     <script src="./index.js" charset="UTF-8" ></script>
-    <footer class="footer_body">
-        <p class = "heading">Contact Me at</p>
-        <p class = "socials twitter">Twitter</p>
-        <p class = "socials instagram">Instagram</p>
-        <p class = "socials facebook">Facebook</p>
-        <p class = "socials discord">Discord</p>
-        <p class = "socials reddit">Reddit</p>
-    </footer>
 </body>
 </html>
